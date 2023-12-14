@@ -6,7 +6,7 @@
 
 ## 1주차
 
-* [HTTP의 이해](1/http.md)
+* [HTTP의 이해](1/http1.md)
 * [HTTP Client](1/http-client.md)
 * [HTTP Server](1/http-server.md)
 * [Java HTTP Server](1/java-http-server.md)
