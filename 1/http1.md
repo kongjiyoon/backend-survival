@@ -3,13 +3,13 @@
 - HTTP(Hypertext Transfer Protocol)
   - 웹서버와 사용자간의 통신규약
   - OSI 7계층
-    응용 : HTTP
-    표현
-    세션
-    전송 : TCP,UDP - port number
-    네트워크 : IP address
-    데이터링크 : MAC address
-    물리
+    - 응용 : HTTP
+    - 표현
+    - 세션
+    - 전송 : TCP,UDP - port number
+    - 네트워크 : IP address
+    - 데이터링크 : MAC address
+    - 물리
 
 - HTTP와 HTTPS의 차이(TLS)
   - HTTPS : Hypertext Transfer Protocol Secure
@@ -40,4 +40,4 @@
     - 멱등성 : 여러번 연산해도 결과가 달라지지 않음 ( GET, PUT, DELETE는 멱등성 보장 O/ POST는 멱등성 보장 X)
   - HTTP 응답 상태 코드(HTTP response status code)
     - 서버의 처리 결과는 응답 메시지의 상태 코드(status code)를 보고 파악 가능
-	- 2XX : 성공 / 3XX : 리다이렉션(완전한 처리를 위해 추가 동작 필요) / 4XX : 클라이언트 에러 / 5XX : 서버에러
+  - 2XX : 성공 / 3XX : 리다이렉션(완전한 처리를 위해 추가 동작 필요) / 4XX : 클라이언트 에러 / 5XX : 서버에러
